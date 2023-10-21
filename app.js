@@ -285,3 +285,78 @@
 
 // CHAPTER 17 - 20 DONE
 
+// CHAPTER 21 - 25 
+
+// 1. Write a program that takes two user inputs for first and 
+// last name using prompt and merge them in a new variable 
+// titled fullName. Greet the user using his full name
+
+// var firstName = prompt("What is your first name")
+// var lastName = prompt("What is your last name")
+// var fullName = firstName + " " + lastName
+
+// alert("Hello there " + fullName)  //DONE
+
+
+// 2. Write a program to take a user input about his favorite 
+// mobile phone model. Find and display the length of user 
+// input in your browser
+
+// var favPhone = prompt("What is your favorite phone ?")
+// document.write("My favorite phone is: " + favPhone + "<br /> Length of String: " +favPhone.length)   //DONE
+
+//3. Write a program to find the index of letter "n” in the word
+// "Pakistani” and display the result in your browser 
+
+// var nationality = "Pakistani"
+// document.write("String: " + nationality + "<br /> Index of 'n': "+nationality.indexOf('n'))  //DONE
+
+//4. Write a program to find the last index of letter "l” in the 
+// word "Hello World” and display the result in your browser
+
+// var Str1 = "Hello World"
+
+// document.write("Last index of 'l' is : " + Str1.lastIndexOf('l'))
+
+// 5. Write a program to find the character at 3rd index in the 
+// word "Pakistani” and display the result in your browser.
+
+// 6. Repeat Q1 using string concat() method
+
+// var firstName = prompt("What is your first name")
+// var lastName = prompt("What is your last name")
+
+// alert("Hello there " + firstName.concat(" " , lastName))  //DONE
+
+// 7. Write a program to replace the "Hyder” to "Islam” in the 
+// word "Hyderabad” and display the result in your browser.
+
+// var city = "Hyderabad"
+// document.write("City: "+ city)
+// city = city.replace("Hyder","Islam")
+// document.write("After Replacement : "+ city)
+
+
+// 8. Write a program to replace all occurrences of "and” in the
+// string with "&” and display the result in your browser.
+// var message = "Ali and Sami are best friends. They play cricket and football together."
+// message = message.replace(/and/g,"&")
+// document.write(message)
+
+// 9. Write a program that converts a string “472” to a number 
+// 472. Display the values & types in your browser
+// var num = "472"
+// document.write("Value: " + num + "<br />Type: " + typeof num)
+// num = Number(num)
+// document.write("<br />Value: " + num + "<br />Type: " + typeof num)
+
+// 10. Write a program that takes user input. Convert and 
+// show the input in capital letters.
+
+// var input = prompt("Please give an input")
+// document.write("User input: " + input + "<br />")
+// input = input.toUpperCase()
+// document.write("Uppercase: " + input + "<br />")
+
+
+// CHAPTER 21 - 25 DONE 
